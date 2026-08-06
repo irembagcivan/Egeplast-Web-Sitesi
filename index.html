@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Sitenin telefonda, tablette ve bilgisayarda ekrana tam oturmasını (Mobil Uyumlu olmasını) sağlar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!-- Tarayıcı sekmesinde (sekme adında) yazacak olan başlık -->
+    <title>Egeplast | Yeni Nesil Arayüz</title>
+    
+    <!-- Yazdığımız CSS (tasarım/renk/hizalama) dosyasını HTML iskeletimize bağlayan kablo -->
+    <link rel="stylesheet" href="css/tasarim.css">
+</head>
+
+<!-- Sayfanın "Gövdesi". Kullanıcının ekranda göreceği her şey bu iki body etiketi arasına yazılır -->
+<body>
+
+    <!-- Sitenin en üstündeki başlık (menü) bölümünü başlatır. Arama motorlarına buranın menü olduğunu söyler -->
+    <header class="ustGezinmeMenusu" id="ustMenu">
+        
+        <!-- Menünün içindeki tüm elemanları bir arada tutan taşıyıcı kutu -->
+        <div class="gezintiIcerigi">
+
+            <!-- SOL TARAF: Menü linkleri -->
+            <nav class="solLinkListesi">
+                <a href="#">ANASAYFA</a>
+                <a href="#">KURUMSAL</a>
+                <a href="#">ÜRÜNLER</a>
+                <a href="#">BAŞARILARIMIZ</a>
+            </nav>
+
+            <!-- ORTA KISIM: Ortada Egeplast logosu -->
+            <div class="ortaLogoAlani">
+                <a href="#">
+                    <img src="medya/egeplast_logo.jpg" alt="Egeplast logo" />
+                </a>
+            </div>
+
+            <!-- SAĞ TARAF: Menü linkleri ve hamburger ikonu -->
+            <nav class="sagLinkListesi">
+                <a href="#">İNSAN KAYNAKLARI</a>
+                <a href="#">YÖNETİM SİSTEMLERİ</a>
+                <a href="#">İLETİŞİM</a>
+                <a href="#">☰</a>
+            </nav>
+
+        </div> <!-- gezintiIcerigi kutusunun kapanışı -->
+    </header> <!-- ustGezinmeMenusu başlığının kapanışı -->
+
+        <main class="karsilamaBolumu">
+            <div class="karsilamaIcerik">
+                <section class="solMetinAlani">
+                    <h1>Çevreye Duyarlı Üretim, Yenilikçi Plastik Çözümler</h1>
+                    <p>Egeplast olarak sürdürülebilirlik ve kalite odaklı üretimimizle sektörün ihtiyaçlarına yenilikçi çözümler sunuyoruz. Ürünlerimiz; dayanıklılık, tasarım ve çevresel sorumluluk gereksinimlerini bir arada karşılayacak şekilde tasarlanmıştır.</p>
+                    <a href="#" class="urunleriInceleButonu">ÜRÜNLERİ İNCELE</a>
+                </section>
+
+                <section class="sagGorselIzgarasi">
+                    <div class="gorselKutusu gorselKutusu-1"><img src="medya/egeplast1.jpeg" alt="Egeplast 1" /></div>
+                    <div class="gorselKutusu gorselKutusu-2"><img src="medya/egeplast2.jpg" alt="Egeplast 2" /></div>
+                    <div class="gorselKutusu gorselKutusu-3"><img src="medya/egeplast3.jpg" alt="Egeplast 3" /></div>
+                    <div class="gorselKutusu gorselKutusu-4"><img src="medya/foto4.jpg" alt="Egeplast 4" /></div>
+                    <div class="gorselKutusu gorselKutusu-5"><img src="medya/foto5.jpg" alt="Egeplast 5" /></div>
+                </section>
+            </div>
+        </main>
+
+    <!-- Hareket ve Etkileşim: JavaScript dosyamızı sayfaya bağlarız. Site hızlı açılsın diye her zaman en alta yazılır -->
+    <script src="js/etkilesim.js"></script>
+
+</body>
+</html>
